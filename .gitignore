@@ -1,0 +1,4 @@
+.env
+new_webserver/
+neo4j/
+log/

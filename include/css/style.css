@@ -1,0 +1,66 @@
+/* Color Palette */
+/* color1: #B34374 */
+/* color2: #D4BE6E */
+/* color3: #558395 */
+/* white color: #FFFFFF */
+/* dark color:  #312B15*/
+
+/* pseudoclass */
+:root {
+    --primary_color: #b63b3b;
+    --secondary_color: #27567b;
+    --tertiary_color: #f9c414;
+    --background_color: #f7ebd8;
+    --dark_color: #505050;
+
+}
+div.test {
+    background-color: #33b5e5;
+    border: 2px solid #000000;
+}
+
+.btn-primary {
+    background-color: var(--primary_color);
+    border-color: var(--primary_color);
+}
+.btn-secondary {
+    background-color: var(--secondary_color);
+    border-color: var(--secondary_color);
+}
+
+/* index.php */
+
+#Home-Overview [class*=col]{
+    padding: 1em;
+}
+
+#Home-Overview #description{
+    font-size: 30px;
+}
+#Home-Overview .row{
+    padding: 1rem;
+}
+
+
+/* runscing.php */
+#scing-nav .nav-link{
+    color: var(--dark_color);
+}
+#scing-nav .nav-link.active{
+    color: var(--primary_color);
+}
+
+#overviewAccordion .accordion-button{
+    background-color: var(--secondary_color);
+    color:var(--background_color);
+}
+
+
+/* network_analysis.php */
+div#Network-Analysis-Main-Btns{
+    height: 10em
+}
+#Network-Analysis-Main-Btns button{
+    width: 25%;
+    font-size: x-large;
+}
